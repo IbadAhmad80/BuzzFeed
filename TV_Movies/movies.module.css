@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.pic_1 {
+  margin-top: 2vw;
+  background-image: url(../assets/Movies_1.PNG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: cover;
+  height: 55vh;
+}
+
+.categories {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr 3fr 3fr 2fr 1fr;
+  column-gap: 2vw;
+}
+
+.categories_2 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: 3fr 3fr 1fr 2fr 1fr 3fr 1fr 1fr 3fr 2fr;
+  column-gap: 2vw;
+}
+
+.categories_3 {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 1fr 1fr 1fr 3fr 1fr 1fr 1fr;
+  column-gap: 2vw;
+}
