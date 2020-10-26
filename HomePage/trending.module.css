@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.topLine {
+  height: 1vh;
+  background-color: darkblue;
+}
+
+.trends {
+  padding-left: 1vw;
+  padding-right: 1vw;
+  padding-top: 2vw;
+}
+
+.heading {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin-top: 1vw;
+  color: darkblue;
+  text-transform: uppercase;
+  word-spacing: 0.05cm;
+  letter-spacing: -0.02cm;
+  font-weight: bolder;
+  margin-bottom: 1vw;
+}

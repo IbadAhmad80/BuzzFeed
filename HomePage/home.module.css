@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  margin-top: 4vw;
+  margin-left: 6vw;
+  margin-right: 4vw;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.leftGrid {
+  grid-column: 1;
+}
+
+.rightGrid {
+  margin-left: 3vw;
+  grid-column: 2;
+}

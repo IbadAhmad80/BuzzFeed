@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+.topLine {
+  background-color: black;
+  height: 1vh;
+}
+
+.heading {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin-top: 1vw;
+  color: black;
+  text-transform: uppercase;
+  word-spacing: 0.05cm;
+  letter-spacing: -0.02cm;
+  font-weight: bolder;
+  margin-bottom: 1vw;
+}
+
+.content_1,
+.content_2 {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin-top: 1.5vw;
+  color: black;
+  font-size: 1.2vw;
+  font-family: "Anton", sans-serif;
+  font-family: "Inconsolata", monospace;
+  color: black;
+}
+
+.content_3 {
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  margin-top: 1.5vw;
+  color: black;
+  font-size: 1.2vw;
+  font-family: "Anton", sans-serif;
+  font-family: "Inconsolata", monospace;
+  padding-bottom: 1.5vw;
+}
+
+.content_1:hover,
+.content_2:hover,
+.content_3:hover {
+  color: blue;
+  cursor: pointer;
+}
