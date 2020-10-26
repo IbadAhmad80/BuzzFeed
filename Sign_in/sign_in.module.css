@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.mainGrid {
+  margin-top: 5vw;
+  background-color: white;
+  display: grid;
+  grid-template-rows: minmax(50px, 80px);
+  grid-template-columns: 1fr;
+  margin-left: 34vw;
+  margin-right: 32vw;
+}
+
+.heading {
+  margin-top: 2vw;
+  grid-column: 1/2;
+  grid-row: 1;
+  text-align: center;
+  font-size: 2vw;
+  font-weight: bolder;
+}
+
+.sub_heading {
+  grid-row: 2;
+  font-size: 1.5vw;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+
+.facebook {
+  grid-row: 3;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: darkblue;
+  color: white;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  border-radius: 2%;
+}
+
+.google {
+  margin-top: 1vw;
+  grid-row: 4;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: red;
+  color: white;
+  padding-top: 0.6vw;
+  padding-bottom: 0.6vw;
+  border-radius: 2%;
+}
+
+.apple {
+  margin-top: 1vw;
+  grid-row: 5;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  background-color: black;
+  color: white;
+  padding-top: 0.6vw;
+  padding-bottom: 0.8vw;
+  border-radius: 2%;
+}
+
+.social_logo {
+  padding-left: 5vw;
+  padding-right: 2vw;
+  font-size: 2.2vw;
+  color: white;
+}
+
+.labels {
+  margin-left: 3vw;
+  font-size: 1.5vw;
+}
+
+.input_box {
+  margin-top: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  height: 6vh;
+  width: 27vw;
+  margin-bottom: 1vw;
+}
+
+.button {
+  grid-row: 5;
+  margin-top: 1vw;
+  margin-left: 3vw;
+  padding-left: 12vw;
+  padding-right: 11vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  color: white;
+  font-size: 1.3vw;
+  background-color: blue;
+}
+
+.bottom_text {
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+  font-size: 1.2vw;
+  text-align: center;
+  color: grey;
+}
