@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.heading {
+  padding-top: 1vw;
+  padding-left: 2vw;
+  font-size: 1.7vw;
+  font-weight: bolder;
+  padding-right: 1.5vw;
+  color: white;
+}
+
+.sub_heading {
+  padding-top: 0.1vw;
+  text-transform: uppercase;
+  font-size: 1.7vw;
+  padding-left: 2vw;
+  padding-right: 1.5vw;
+  color: white;
+}
+
+.content {
+  padding-top: 1vw;
+  font-size: 1.2vw;
+  padding-left: 2vw;
+  padding-right: 1.5vw;
+  text-transform: capitalize;
+  color: white;
+}
+
+.sign_up {
+  margin-left: 1vw;
+  margin-top: 2.5vw;
+  font-size: 1.25vw;
+  border: 1px solid white;
+  border-radius: 3%;
+  padding-top: 0.42vw;
+  padding-bottom: 0.4vw;
+  padding-left: 0.6vw;
+  padding-right: 0.6vw;
+  background-color: transparent;
+  color: white;
+}
+
+.facebook {
+  margin-top: 1vw;
+  height: 4vh;
+  background-color: blue;
+  color: white;
+  font-size: 1.4vw;
+  padding-left: 1vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
+.google {
+  margin-top: 1vw;
+  height: 4vh;
+  background-color: black;
+  color: white;
+  font-size: 1.4vw;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+  padding-left: 1vw;
+}

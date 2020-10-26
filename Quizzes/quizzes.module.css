@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.heading {
+  margin-top: 1vw;
+  font-size: 3.5vw;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 0.1cm;
+}
+
+.subHeading {
+  font-size: 1.2vw;
+  text-align: center;
+  /* font-family: "Anton", sans-serif; */
+  letter-spacing: 0.03cm;
+  color: grey;
+  font-weight: bold;
+}
+
+.categories {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 2vw;
+}
