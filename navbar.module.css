@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.navBar {
+  background-color: transparent;
+  display: flex;
+  width: 100vw;
+  height: 12vh;
+  flex-direction: row;
+  list-style: none;
+}
+
+.flexStart {
+  align-self: center;
+  flex: 0.6;
+}
+
+.webLogo {
+  font-size: 2vw;
+  color: black;
+  align-self: center;
+  margin-right: 1vw;
+  margin-left: 1vw;
+}
+
+.webName {
+  align-self: center;
+  font-family: "Inter", sans-serif;
+  font-size: 2vw;
+  font-weight: 900;
+  color: red;
+}
+
+.webName:hover {
+  cursor: pointer;
+}
+
+.centerFlex {
+  flex: 1.4;
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navLinks {
+  color: black;
+  font-size: 2.1vh;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.navLinks:hover {
+  cursor: pointer;
+  color: blue;
+  font-size: 2.3vh;
+}
+.endFlex {
+  flex: 1.2;
+  align-self: center;
+  color: tomato;
+  margin-left: 3vw;
+}
+.sign_in {
+  font-size: 2.3vh;
+  color: black;
+  align-self: center;
+  margin-right: 1vw;
+  margin-left: 6vw;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.sign_in:hover {
+  cursor: pointer;
+  color: blue;
+  font-size: 2.5vh;
+}
+
+.rotatedText {
+  color: black;
+  padding: 1vw;
+  background-color: yellow;
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
+  border-radius: 50%;
+  font-weight: bolder;
+}
+
+.stock {
+  color: black;
+  padding: 1vw;
+  background-color: red;
+  -ms-transform: rotate(330deg);
+  transform: rotate(330deg);
+  border-radius: 50%;
+  font-weight: bolder;
+  font-size: 1.7vw;
+}

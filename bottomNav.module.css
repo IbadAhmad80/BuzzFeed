@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.centerFlex {
+  padding-top: 1vw;
+  padding-right: 14vw;
+  padding-left: 14vw;
+  flex: 1.4;
+  align-self: end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navLinks {
+  color: black;
+  font-size: 2vh;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+.navLinks:hover {
+  cursor: pointer;
+  color: blue;
+  font-size: 2.5vh;
+}
+.endFlex {
+  flex: 1.2;
+  align-self: center;
+  color: tomato;
+  margin-left: 3vw;
+}
+.sign_in {
+  font-size: 2.5vh;
+  color: black;
+  align-self: center;
+  margin-right: 1vw;
+  margin-left: 6vw;
+  font-family: "Montserrat", sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.sign_in:hover {
+  cursor: pointer;
+  color: blue;
+  font-size: 2.5vh;
+}
+
+.stock {
+  color: red;
+  font-size: 1.9vw;
+}
