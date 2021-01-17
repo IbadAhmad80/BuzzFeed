@@ -1,1 +1,1 @@
-# Designed with Vanilla CSS
+# run npm install in project directory and then npm start
